@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <title>Hello word</title>
@@ -9,21 +10,14 @@
 <body>
     <h1>Hello world</h1>
     <p>Bem-vindo a programação web!</p>
-    
-    <p class= "hello-world">
+
+    <p class="hello-world">
         Digite o seu nome: <br>
-        <input type="text"/> <br>
-         <button onclick="helloWorld()">OK</button>
+        <input type="text" /> <br>
+        <button onclick="helloWorld()">OK</button>
     </p>
 
-   <script>
-       function helloWorld(){
-       var inputs = document.getElementsByTagName('input') ;
-       var input = inputs[0];
-       var nome = input.value;
-       window.alert('Hello world,' + nome + '!');
-       input.value = '';
-       }
-   </script> 
+    <script src="script.js"></script>
 </body>
+
 </html>
